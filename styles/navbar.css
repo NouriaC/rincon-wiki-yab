@@ -21,7 +21,8 @@
 
     #home-nav-bar a.small-link{
         font-size: 1.5rem;;
-        border: 1.5px ridge black;
+        border: 1.5px ridge rgb(131, 154, 131);
+        border-radius: 8px;
         padding: 5px;
         text-decoration: none;
     }

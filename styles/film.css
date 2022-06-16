@@ -1,0 +1,16 @@
+.film-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.film-card{
+    width: 25%;
+    height:16rem;
+    margin:5px;
+}
+
+.film-img{
+    object-fit: contain;
+}
