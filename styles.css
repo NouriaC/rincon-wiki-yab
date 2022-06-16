@@ -12,12 +12,12 @@ p {
 
 body {
   font-family: "Lato", sans-serif;
+  height: 100vh;
 }
 
 main {
   width: 90vw;
   margin: 2rem auto;
-  height: 100vh;
 }
 
 .img-container {
@@ -50,6 +50,7 @@ main {
   p {
     font-size: 0.3;
   }
+
   .section {
     display: grid;
     grid-template-columns: 400px 1fr;
