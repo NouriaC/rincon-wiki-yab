@@ -7,8 +7,7 @@
 }
 
 p {
-    font-size: 1.2;
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 body {
@@ -18,6 +17,7 @@ body {
 main {
   width: 90vw;
   margin: 2rem auto;
+  height: 100vh;
 }
 
 .img-container {
@@ -28,4 +28,40 @@ main {
 .main-img {
   display: block;
   width: 100%;
+}
+
+.section {
+  margin-bottom: 5rem;
+}
+
+.icons {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+  padding-right: 2rem;
+  color: #013220;
+}
+
+@media screen and (min-width: 720px) {
+  p {
+    font-size: 0.3;
+  }
+  .section {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .icon-section {
+    text-align: center;
+  }
+
+  .icons {
+    justify-content: center;
+  }
 }
